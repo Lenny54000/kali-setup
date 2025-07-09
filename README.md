@@ -6,19 +6,20 @@
 
 ## 📜 Description
 
-Ce script `setup.sh` automatise la configuration initiale d’une machine **Kali Linux** exécutée dans VirtualBox.
+`setup.sh` automatise la configuration initiale d’une machine **Kali Linux** lancée depuis un `.vbox` VirtualBox.
 
-### 🛠️ Ce qu'il fait :
+### 🛠️ Fonctionnalités
 
 | Étape | Action |
 |-------|--------|
-| 1️⃣ | Ajoute le dépôt Microsoft pour Visual Studio Code |
-| 2️⃣ | Met à jour la liste des paquets |
-| 3️⃣ | Installe les drivers **VirtualBox Guest Additions** |
-| 4️⃣ | Installe les outils Kali (`kali-linux-default`) |
-| 5️⃣ | Installe **Visual Studio Code**, **Hollywood** et **Byobu** |
-| 6️⃣ | Met à jour complètement le système |
-| 7️⃣ | Nettoie les paquets inutiles |
+| 1️⃣ | Clavier permanent en **AZERTY** (console + interface graphique) |
+| 2️⃣ | Langue système en **français** (`fr_FR.UTF-8`) |
+| 3️⃣ | Ajout du dépôt Microsoft + installation de **Visual Studio Code** |
+| 4️⃣ | Installation des **drivers VirtualBox** |
+| 5️⃣ | Installation des outils Kali (`kali-linux-default`) |
+| 6️⃣ | Installation de **Hollywood** + **Byobu** |
+| 7️⃣ | Mise à jour complète (`apt full-upgrade`) |
+| 8️⃣ | Nettoyage (`autoremove` + `clean`) |
 
 ---
 
